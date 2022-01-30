@@ -1,8 +1,7 @@
-![](https://cdn.discordapp.com/attachments/265411250341543936/269612274765791242/eris_128.png)
-# Endless Horizon: CEV-Eris [![Build Status](https://travis-ci.org/discordia-space/CEV-Eris.svg?branch=master)](https://travis-ci.org/Endless-Horizon/CEV-Eris)
-[![discord](https://discordapp.com/api/guilds/255035529085583360/widget.png)](https://discord.gg/QfEg7K7)
+![](https://cdn.discordapp.com/attachments/471716093581328385/937133700158742528/i06.png) [![Build Status](https://travis-ci.org/discordia-space/CEV-Eris.svg?branch=master)](https://github.com/baystation12/baystation12/actions)
+<!-- [![discord](https://discordapp.com/api/guilds/255035529085583360/widget.png)](https://discord.gg/QfEg7K7) -->
 
-Корабль, который должен умирать.
+A Halo-inspired SS13 server.
 
 ## CONTRIBUTING
 
