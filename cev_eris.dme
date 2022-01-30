@@ -244,6 +244,7 @@
 #include "code\controllers\subsystems\wireless.dm"
 #include "code\controllers\subsystems\xenoarch.dm"
 #include "code\controllers\subsystems\initialization\character_setup.dm"
+#include "code\controllers\subsystems\initialization\modpacks.dm"
 #include "code\controllers\subsystems\processing\circuit.dm"
 #include "code\controllers\subsystems\processing\mobs.dm"
 #include "code\controllers\subsystems\processing\nano.dm"
@@ -2830,4 +2831,5 @@
 #include "maps\submaps\planetary_ruins\radshrine\radshrine.dm"
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
+#include "mods\_modpack.dm"
 // END_INCLUDE

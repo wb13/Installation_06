@@ -1,0 +1,6 @@
+#ifndef MODPACK_HALO
+#define MODPACK_HALO
+// BEGIN_INCLUDE
+#include "_halo.dm"
+// END_INCLUDE
+#endif

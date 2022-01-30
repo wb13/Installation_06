@@ -44,7 +44,8 @@
 // The numbers just define the ordering, they are meaningless otherwise.
 
 #define INIT_ORDER_GARBAGE 99
-#define INIT_ORDER_SKYBOX 20
+#define INIT_ORDER_SKYBOX 21
+#define INIT_ORDER_MODPACKS 20
 #define INIT_ORDER_DBCORE 19
 #define INIT_ORDER_BLACKBOX 18
 #define INIT_ORDER_SERVER_MAINT 17
