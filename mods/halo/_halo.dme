@@ -2,5 +2,15 @@
 #define MODPACK_HALO
 // BEGIN_INCLUDE
 #include "_halo.dm"
+#include "__DEFINES\projectile_defines.dm"
+#include "projectiles\ammunition\bullets.dm"
+#include "projectiles\projectile\bullettypes.dm"
 // END_INCLUDE
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
 #endif
