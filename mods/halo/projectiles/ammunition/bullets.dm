@@ -37,7 +37,6 @@
 /obj/item/ammo_casing/smg
 	desc = "A 5.0x23mm bullet."
 	icon_state = "smg_c"
-	spent_icon = "smg_c-spent"
 	caliber = CAL_SMG
 	projectile_type = /obj/item/projectile/bullet/smg
 	maxamount = 30
@@ -62,7 +61,6 @@
 /obj/item/ammo_casing/carbine
 	desc = "A 8.7x60mm depleted bullet."
 	icon_state = "carbine_c"
-	spent_icon = "carbine_c-spent"
 	caliber = CAL_CARBINE
 	projectile_type = /obj/item/projectile/bullet/carbine
 	maxamount = 20
@@ -75,7 +73,6 @@
 /obj/item/ammo_casing/needler
 	desc = "A crystalline needle."
 	icon_state = "antmat_c"
-	spent_icon = "antmat_c-spent"
 	caliber = CAL_ANTMAT
 	projectile_type = /obj/item/projectile/bullet/antmat
 	maxamount = 30
