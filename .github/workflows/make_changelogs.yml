@@ -2,7 +2,7 @@ name: Make changelogs
 
 on:
   push:
-    branches: [master]
+    branches: [dev]
 
 jobs:
   MakeCL:
