@@ -107,6 +107,7 @@
 	return
 
 /obj/item/gun/energy/update_icon(var/ignore_inhands)
+	..()
 	if(charge_meter)
 		var/ratio = 0
 
