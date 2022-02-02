@@ -58,6 +58,26 @@
 	sprite_max_rotate = 32
 	sprite_scale = 0.5
 
+/obj/item/ammo_casing/shotgun
+	desc = "A 8-Gauge Magnum shell."
+	icon_state = "shotgun_c"
+	spent_icon = "shotgun_c-spent"
+	caliber = CAL_SHOTGUN
+	projectile_type = /obj/item/projectile/bullet/shotgun
+	maxamount = 15
+
+	sprite_update_spawn = TRUE
+	sprite_max_rotate = 32
+	sprite_scale = 0.5
+
+/obj/item/ammo_casing/rocket
+	desc = "A 50x137mm HEMP rocket."
+	icon_state = "rocket_c"
+	caliber = CAL_ROCKET
+	projectile_type = /obj/item/projectile/bullet/rocket
+	maxamount = 1
+	is_caseless = TRUE
+
 /obj/item/ammo_casing/carbine
 	desc = "A 8.7x60mm depleted bullet."
 	icon_state = "carbine_c"
@@ -72,8 +92,8 @@
 
 /obj/item/ammo_casing/needler
 	desc = "A crystalline needle."
-	icon_state = "antmat_c"
-	caliber = CAL_ANTMAT
+	icon_state = "needler_c"
+	caliber = CAL_NEEDLER
 	projectile_type = /obj/item/projectile/bullet/antmat
 	maxamount = 30
 	is_caseless = TRUE
@@ -81,3 +101,19 @@
 	sprite_update_spawn = TRUE
 	sprite_max_rotate = 32
 	sprite_scale = 0.5
+
+/obj/item/ammo_casing/brutes
+	desc = "A Type-25 HEAP scattershot shell."
+	icon_state = "brutes_c"
+	caliber = CAL_BRUTES
+	projectile_type = /obj/item/projectile/bullet/brutes
+	maxamount = 10
+	is_caseless = TRUE
+
+/obj/item/ammo_casing/fuelrod
+	desc = "A 38mm fuel rod."
+	icon_state = "fuelrod_c"
+	caliber = CAL_FUELROD
+	projectile_type = /obj/item/projectile/bullet/fuelrod
+	maxamount = 3
+	is_caseless = TRUE
