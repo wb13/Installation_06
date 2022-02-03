@@ -1,0 +1,20 @@
+/obj/item/gun/projectile/m90
+	name = "M90 Shotgun"
+	desc = "A UNSC close-assault shotgun, designed for front line forces. Features"
+	icon = 'icons/obj/guns/projectile/m90.dmi'
+	icon_state = "m90"
+	item_state = "m90"
+	max_shells = 6
+	w_class = ITEM_SIZE_BULKY
+	force = WEAPON_FORCE_PAINFUL
+	slot_flags = SLOT_BACK
+	caliber = CAL_SHOTGUN
+	load_method = SINGLE_CASING
+	ammo_type = /obj/item/ammo_casing/shotgun
+	handle_casings = HOLD_CASINGS
+	fire_sound = 'sound/weapon/unsc/shotgun_fire1.ogg'
+	bulletinsert_sound = 'sound/weapon/unsc/shotgun_breechin1.ogg'
+	recoil_buildup = 12
+	one_hand_penalty = 15 //full sized shotgun level
+	spawn_tags = SPANW_TAG_FS_SHOTGUN
+	saw_off = FALSE

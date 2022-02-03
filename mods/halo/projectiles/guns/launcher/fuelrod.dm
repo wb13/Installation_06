@@ -1,0 +1,19 @@
+/obj/item/gun/projectile/fuelrod
+	name = "Type-33 LAAW"
+	desc = "A Covenant shoulder-fired mortar, chambered in volatile fuel rod ammunition. Commonly employed as a support weapon in both anti-personnel and anti-vehicle roles."
+	icon = 'icons/obj/guns/launcher/fuelrod.dmi'
+	icon_state = "fuelrod"
+	item_state = "fuelrod"
+	w_class = ITEM_SIZE_HUGE
+	force = WEAPON_FORCE_PAINFUL
+	caliber = CAL_FUELROD
+	load_method = SINGLE_CASING
+	handle_casings = HOLD_CASINGS
+	max_shells = 5
+	recoil_buildup = 0
+	twohanded = TRUE
+	ammo_type = /obj/item/ammo_casing/fuelrod
+	fire_sound = 'sound/weapon/covenant/fuelrod_shot1.ogg'
+	fire_sound_text = "a metallic thunk"
+	bulletinsert_sound = 'sound/weapons/guns/interact/batrifle_magin.ogg'	//Placeholder, could use a new sound
+	saw_off = FALSE

@@ -1,0 +1,19 @@
+/obj/item/gun/projectile/bruteshot
+	name = "Type-25 Grenade Launcher"
+	desc = "A bulky semi-automatic grenade launcher, sporting a fire-rate of four grenades per second. The launcher also has a blade slung on its rear, for the purpose of devastating melee attacks."
+	icon = 'icons/obj/guns/projectile/bruteshot.dmi'
+	icon_state = "bruteshot"
+	item_state = "bruteshot"
+	w_class = ITEM_SIZE_HUGE
+	force = WEAPON_FORCE_PAINFUL
+	caliber = CAL_BRUTES
+	load_method = SINGLE_CASING
+	handle_casings = HOLD_CASINGS
+	max_shells = 6
+	recoil_buildup = 0
+	twohanded = TRUE
+	ammo_type = /obj/item/ammo_casing/brutes
+	fire_sound = 'sound/weapon/covenant/bruteshot_shot1.ogg'
+	fire_sound_text = "a metallic thunk"
+	bulletinsert_sound = 'sound/weapons/guns/interact/batrifle_magin.ogg'	//Placeholder, could use a new sound
+	saw_off = FALSE
