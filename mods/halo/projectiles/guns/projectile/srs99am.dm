@@ -6,7 +6,7 @@
 	item_state = "srs99am"
 	w_class = ITEM_SIZE_HUGE
 	force = WEAPON_FORCE_PAINFUL
-	caliber = CAL_SNIPER
+	caliber = CAL_ANTMAT
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_RIFLE
 	magazine_type = /obj/item/ammo_magazine/sniper

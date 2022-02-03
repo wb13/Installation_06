@@ -12,7 +12,7 @@
 	load_method = SINGLE_CASING
 	ammo_type = /obj/item/ammo_casing/shotgun
 	handle_casings = HOLD_CASINGS
-	fire_sound = 'sound/weapon/unsc/shotgun_fire1.ogg'
+	fire_sound = 'sound/weapon/unsc/shotgun_shot1.ogg'
 	bulletinsert_sound = 'sound/weapon/unsc/shotgun_breechin1.ogg'
 	recoil_buildup = 12
 	one_hand_penalty = 15 //full sized shotgun level
