@@ -72,3 +72,30 @@
 
 /obj/item/ammo_magazine/antmat/empty
 	initial_ammo = 0
+
+/obj/item/ammo_magazine/needler
+	name = "standard magazine (4.8-6.3mm crystalline)"
+	icon_state = "needler"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	mag_well = MAG_WELL_SMG
+	matter = list(MATERIAL_STEEL = 4)
+	caliber = CAL_NEEDLER
+	ammo_type = /obj/item/ammo_casing/needler
+	max_ammo = 20
+	ammo_states = list(20)
+
+/obj/item/ammo_magazine/carbine
+	name = "standard carbine fuelrod"
+	icon_state = "carbine"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	mag_well = MAG_WELL_RIFLE
+	matter = list(MATERIAL_STEEL = 5)
+	caliber = CAL_CARBINE
+	ammo_type = /obj/item/ammo_casing/carbine
+	max_ammo = 18
+	ammo_states = list(18)
+
+/obj/item/ammo_magazine/brifle/empty
+	initial_ammo = 0

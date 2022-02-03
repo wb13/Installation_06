@@ -9,7 +9,7 @@
 	caliber = CAL_ANTMAT
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_RIFLE
-	magazine_type = /obj/item/ammo_magazine/sniper
+	magazine_type = /obj/item/ammo_magazine/antmat
 	auto_eject = 0
 	unload_sound = 'sound/weapon/unsc/sniper_magout1.ogg'
 	reload_sound = 'sound/weapon/unsc/sniper_magin1.ogg'
